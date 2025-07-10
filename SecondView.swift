@@ -9,8 +9,11 @@ import SwiftUI
 
 struct SecondView: View {
     var body: some View {
-        Text("This is the second view🎊")
-    }
+        Text("About")
+        NavigationLink(destination: ThirdView()) {
+            Text("Click Me")
+        }
+            }
 }
 
 #Preview {

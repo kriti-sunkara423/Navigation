@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("This is my root view🌳")
+                Text("Home")
                 NavigationLink(destination: SecondView()) {
                     Text("Click me!")
                     
